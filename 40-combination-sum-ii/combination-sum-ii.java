@@ -1,6 +1,6 @@
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-     List < List < Integer >> ans = new ArrayList < > ();
+        List < List < Integer >> ans = new ArrayList < > ();
         Arrays.sort(candidates);
         findCombinations(0, candidates, target, ans, new ArrayList < > ());
         return ans;
